@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="1434px" height="601px" viewBox="0 0 1434 601" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 3.7.1 (28215) - http://www.bohemiancoding.com/sketch -->
+    <title>VentureHexes</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="LANDING-PAGE" transform="translate(-3.000000, -1725.000000)">
+            <g id="VentureHexes" transform="translate(3.000000, 1725.000000)">
+                <polygon id="Polygon-1" fill="#E2433B" points="596.5 183 714 241.75 714 359.25 596.5 418 479 359.25 479 241.75"></polygon>
+                <polygon id="Polygon-1" fill="#E2433B" points="717.5 2 835 60.75 835 178.25 717.5 237 600 178.25 600 60.75"></polygon>
+                <g id="Group-5" transform="translate(841.000000, 1.000000)">
+                    <polygon id="Polygon-1" fill="#FFE5E4" points="117.5 0 235 58.75 235 176.25 117.5 235 1.88293825e-13 176.25 1.13686838e-13 58.75"></polygon>
+                    <polygon id="Polygon-1" fill="#FFE5E4" points="235.5 182 353 240.75 353 358.25 235.5 417 118 358.25 118 240.75"></polygon>
+                    <polygon id="Polygon-1" fill="#FFE5E4" points="117.5 365 235 423.75 235 541.25 117.5 600 1.88293825e-13 541.25 1.13686838e-13 423.75"></polygon>
+                    <polygon id="Polygon-1" fill="#F3F3F3" points="357.5 364 475 422.75 475 540.25 357.5 599 240 540.25 240 422.75"></polygon>
+                    <polygon id="Polygon-1" fill="#F3F3F3" points="359.5 1 477 59.75 477 177.25 359.5 236 242 177.25 242 59.75"></polygon>
+                    <polygon id="Polygon-1" fill="#F3F3F3" points="475.5 182 593 240.75 593 358.25 475.5 417 358 358.25 358 240.75"></polygon>
+                </g>
+                <g id="Group-5" transform="translate(296.500000, 300.000000) scale(-1, 1) translate(-296.500000, -300.000000) ">
+                    <polygon id="Polygon-1" fill="#FFE5E4" points="117.5 0 235 58.75 235 176.25 117.5 235 1.88293825e-13 176.25 1.13686838e-13 58.75"></polygon>
+                    <polygon id="Polygon-1" fill="#FFE5E4" points="235.5 182 353 240.75 353 358.25 235.5 417 118 358.25 118 240.75"></polygon>
+                    <polygon id="Polygon-1" fill="#FFE5E4" points="117.5 365 235 423.75 235 541.25 117.5 600 1.88293825e-13 541.25 1.13686838e-13 423.75"></polygon>
+                    <polygon id="Polygon-1" fill="#F3F3F3" points="357.5 364 475 422.75 475 540.25 357.5 599 240 540.25 240 422.75"></polygon>
+                    <polygon id="Polygon-1" fill="#F3F3F3" points="359.5 1 477 59.75 477 177.25 359.5 236 242 177.25 242 59.75"></polygon>
+                    <polygon id="Polygon-1" fill="#F3F3F3" points="475.5 182 593 240.75 593 358.25 475.5 417 358 358.25 358 240.75"></polygon>
+                </g>
+                <polygon id="Polygon-1" fill="#E2433B" points="716.5 366 834 424.75 834 542.25 716.5 601 599 542.25 599 424.75"></polygon>
+                <polygon id="Polygon-1" fill="#E2433B" points="837.5 183 955 241.75 955 359.25 837.5 418 720 359.25 720 241.75"></polygon>
+            </g>
+        </g>
+    </g>
+</svg>
