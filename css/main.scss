@@ -3,63 +3,124 @@
 ---
 @charset "utf-8";
 
+@import "variables";
+@import "fonts";
+@import "bootstrap-sass/assets/stylesheets/bootstrap";
 
+body {
+  font-family: "Bebas Neue", Helvetica, sans-serif;
+  color: $pennapps-navy;
+  letter-spacing: 0.88pt;
+  strong, .inverse strong {
+    color: $pennapps-red;
+  }
+  .inverse {
+    color: #fff;
+  }
+  h1 {
+    letter-spacing: 7px;
+    font-weight: 600;
+    font-size: 65px;
+  }
+  h2 {
+    letter-spacing: 3px;
+    font-weight: 500;
+    font-size: 40px;
+  }
+}
 
-// Our variables
-$base-font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-$base-font-size:   16px;
-$base-font-weight: 400;
-$small-font-size:  $base-font-size * 0.875;
-$base-line-height: 1.5;
-
-$spacing-unit:     30px;
-
-$light-gray1:  #f2f2f3;
-$light-gray2:  #e0e1e3;
-$light-gray3:  #cfd0d2;
-$light-gray4:  #bbbdc0;
-$medium-gray4: #6c6f76;
-$dark-gray2:   #44464b;
-$dark-gray3:   #2e2f32;
-$dark-gray4:   #131315;
-// Width of the content area
-$content-width:    800px;
-
-$on-palm:          600px;
-$on-laptop:        800px;
-
-$darkest-blue: #000f3a;
-$blue: #01256e;
-$lighter-blue: #045ea7;
-$darkest-red: #57000a;
-$red: #95001a;
-$yellow: #f2c100;
-$lightest-blue: #82afd3;
-$darker-orange: #ac3c00;
-
-$text-color:       $dark-grey2;
-$background-color: #fdfdfd;
-$brand-color:      $blue;
-
-
-// Use media queries like this:
-// @include media-query($on-palm) {
-//     .wrapper {
-//         padding-right: $spacing-unit / 2;
-//         padding-left: $spacing-unit / 2;
-//     }
-// }
-@mixin media-query($device) {
-    @media screen and (max-width: $device) {
-        @content;
+// Navbar styles
+.navbar {
+  border-radius: 0px; // why this is not the default, I'll never know
+  .navbar-brand {
+    padding: 5px 0px;
+    img.logo {
+      height: $navbar-height - 10px;
     }
+  }
+  li a {
+    color: #fff;
+    font-size: 24px;
+  }
+  li.active a {
+    color: $pennapps-red;
+  }
+  .navbar-toggle {
+    border-color: $pennapps-navy;
+    .icon-bar {
+      background-color: $pennapps-navy;
+    }
+  }
+}
+
+@media (max-width: $screen-sm) {
+  .vertical-separator {
+    display: none;
+  }
+
+  .navbar li a {
+    color: $pennapps-navy;
+  }
+}
+
+@media (max-width: $screen-md) {
+  .navbar li a {
+    padding-left: 40px;
+    padding-right: 0px;
+  }
+}
+
+@media (min-width: $screen-sm) {
+  .navbar>.container .navbar-brand, .navbar>.container-fluid .navbar-brand {
+      margin-left: 30px;
+  }
+  .vertical-separator {
+      display: inline-block;
+      height: 50px;
+      padding-top: 5px;
+      margin-top: 5px;
+      border-left: solid #fff;
+      float: left;
+      margin-left: $navbar-side-padding;
+  }
 }
 
 
+// index page
+.main-image {
+  width: 100%;
+  background-image: url(/images/building.png);
+  min-height: 2 * 546px/3;
+  margin-top: -20px;
+}
 
-// Import partials from `sass_dir` (defaults to `_sass`)
-@import
-        "base",
-        "layout",
-        "syntax-highlighting"
-;
+@media (min-width: $screen-sm) {
+  .main-image {
+    min-height: 546px;
+    padding-top: 160px;
+    text-align: center;
+    margin-top: -$navbar-height - 25px;
+  }
+}
+
+// Footer styles
+$footer-height: 25px;
+html, body {
+  height: 100%;
+}
+.wrapper {
+  min-height: 100%;
+  height: auto !important;
+  height: 100%;
+  margin: 0 auto (-1 * $footer-height);
+  -webkit-transform-style: preserve-3d;
+  -moz-transform-style: preserve-3d;
+  transform-style: preserve-3d;
+}
+footer, .footer-push {
+  height: $footer-height;
+}
+
+footer {
+  text-align: center;
+}

@@ -13,8 +13,11 @@ description: > # this means to ignore newlines until "baseurl:"
   UPenn tech entrepreneurs.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://accelerator.pennapps.com" # the base hostname & protocol for your site
-twitter_username: sibnerian
-github_username:  sibnerian
+sass:
+  load_paths:
+    - _sass
+    - bower_components
+  style: compressed
 
 # Build settings
 markdown: kramdown
