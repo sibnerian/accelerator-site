@@ -1,9 +1,7 @@
 # A sample Gemfile
 source "https://rubygems.org"
 
-group :deployment do
-  gem 'github-pages'
-end
+gem 'github-pages', group: :jekyll_plugins
 
 group :development do
   gem 'guard'

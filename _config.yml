@@ -14,9 +14,7 @@ description: > # this means to ignore newlines until "baseurl:"
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://accelerator.pennapps.com" # the base hostname & protocol for your site
 sass:
-  load_paths:
-    - _sass
-    - bower_components
+  sass_dir: .
   style: compressed
 exclude: [vendor]
 
