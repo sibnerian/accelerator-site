@@ -18,6 +18,7 @@ sass:
     - _sass
     - bower_components
   style: compressed
+exclude: [vendor]
 
 # Build settings
 markdown: kramdown
