@@ -1,7 +1,7 @@
 # A sample Gemfile
 source "https://rubygems.org"
 
-group :production do
+group :deployment do
   gem 'github-pages'
 end
 
