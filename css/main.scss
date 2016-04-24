@@ -99,7 +99,7 @@ body {
 // index page
 .main-image {
   width: 100%;
-  background-image: url(/images/building.png);
+  background-image: url({{'/images/building.png' | prepend: site.baseurl }});
   min-height: 2 * 546px/3;
   margin-top: -20px;
 }

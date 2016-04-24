@@ -20,7 +20,7 @@ layout: default
       <div class="col-md-4 col-xs-12">
         <div class="card">
           <div class="img-wrapper">
-            <img src="/images/teams.svg" />
+            <img src="{{'/images/teams.svg' | prepend: site.baseurl }}" />
           </div>
           <h4><strong>10 teams</strong></h4>
           <p>Lorem ipsum dolor sit amet, ut adhuc inani soleat his, mei primis labore ut. Est te laoreet recusabo honestatis, altera fastidii hendrerit quo ne.</p>
@@ -29,7 +29,7 @@ layout: default
       <div class="col-md-4 col-xs-12">
         <div class="card">
           <div class="img-wrapper">
-            <img src="/images/imac.svg" />
+            <img src="{{'/images/imac.svg ' | prepend: site.baseurl }}" />
           </div>
           <h4><strong>8 weeks</strong></h4>
           <p>Lorem ipsum dolor sit amet, ut adhuc inani soleat his, mei primis labore ut. Est te laoreet recusabo honestatis, altera fastidii hendrerit quo ne.</p>
@@ -38,7 +38,7 @@ layout: default
       <div class="col-md-4 col-xs-12">
         <div class="card">
           <div class="img-wrapper">
-            <img src="/images/money.svg" />
+            <img src="{{'/images/money.svg' | prepend: site.baseurl }}" />
           </div>
           <h4><strong>$1,000 dollars</strong></h4>
           <p>Lorem ipsum dolor sit amet, ut adhuc inani soleat his, mei primis labore ut. Est te laoreet recusabo honestatis, altera fastidii hendrerit quo ne.</p>
@@ -49,7 +49,7 @@ layout: default
 </div>
 <div class="container-fluid teams">
   <h2>Current Ventures</h2>
-  <img width="100%" src="/images/VentureHexes.svg"/>
+  <img width="100%" src="{{'/images/VentureHexes.svg' | prepend: site.baseurl }}"/>
   <a class="btn btn-default">Learn More</a>
 </div>
 
@@ -68,7 +68,7 @@ layout: default
 <div class="container-fluid inverse contact">
   <h2>Contact</h2>
   <p>
-    <img src="/images/EmailIcon.svg" />
+    <img src="{{'/images/EmailIcon.svg' | prepend: site.baseurl }}" />
     <a href="mailto:{{ site.email }}">{{ site.email }}</a>
   </p>
 
