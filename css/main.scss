@@ -25,7 +25,17 @@ body {
   h2 {
     letter-spacing: 3px;
     font-weight: 500;
-    font-size: 40px;
+    font-size: 48px;
+  }
+
+  h3 {
+    font-size: 30px;
+    font-weight: 400;
+    letter-spacing: 1px;
+  }
+
+  .btn {
+    font-weight: 200;
   }
 }
 
@@ -96,15 +106,82 @@ body {
 
 @media (min-width: $screen-sm) {
   .main-image {
-    min-height: 546px;
+    min-height: 0.8 * 546px;
     padding-top: 160px;
     text-align: center;
     margin-top: -$navbar-height - 25px;
   }
 }
 
+.about {
+  text-align: center;
+  p {
+    font-size: 26px;
+  }
+  padding: 40px 0px;
+}
+
+.blurbs {
+  background: linear-gradient(180deg, $accent-pink, #fff);
+  text-align: center;
+  padding: 40px 0px;
+  .col-md-4 {
+    padding: 0px 40px;
+    margin-bottom: 40px;
+    .card {
+      background: #fff;
+      padding: 40px 20px;
+      box-shadow: 0 4px 6px 1px rgba(0, 0, 0, 0.5);
+      .img-wrapper {
+        height: 200px;
+      }
+      h4 {
+        font-size: 48px;
+        letter-spacing: 1.8px;
+        margin-top: 20px;
+      }
+      p {
+        font-size: 26px;
+      }
+    }
+  }
+}
+
+.teams, .partners {
+  text-align: center;
+  img {
+    margin: 20px 0px 40px;
+  }
+  img.partner {
+    height: 200px;
+    margin: 0px 10px 40px;
+  }
+  .btn {
+    padding: 8px 30px;
+    font-size: 20px;
+    margin-bottom: 40px;
+  }
+}
+
+.contact {
+  background-color: $pennapps-navy;
+  text-align: center;
+  a {
+    color: #fff;
+  }
+  p {
+    font-size: 24px;
+    font-weight: 200;
+  }
+  img {
+    height: 24px;
+    margin: 40px 10px;
+  }
+  padding-bottom: 40px;
+}
+
 // Footer styles
-$footer-height: 25px;
+$footer-height: 40px;
 html, body {
   height: 100%;
 }
@@ -122,5 +199,7 @@ footer, .footer-push {
 }
 
 footer {
+  background-color: $pennapps-navy;
+  padding: 13px 0;
   text-align: center;
 }
