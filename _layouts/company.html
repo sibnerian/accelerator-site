@@ -1,0 +1,14 @@
+---
+layout: default
+---
+
+{% assign company = page %}
+
+<div class="container">
+  <h2>
+    <a href="{{site.baseurl}}/companies/{{semester | slugify}}/{{company.slug}}.html">
+    {{ company.name }}
+  </h2>
+  <img src="{{ company.logo }}"/>
+</div>
+{{ content }}

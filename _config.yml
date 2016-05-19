@@ -11,9 +11,9 @@ sass:
   style: compressed
 exclude: [vendor]
 collections:
-  teams:
+  companies:
     output: true
-    years:
+    semesters:
       - Spring 2016
       # - Fall 2015
 

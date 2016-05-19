@@ -1,6 +1,8 @@
 ---
-slug: solution-loft
+layout: company
+slug: solutionloft
 name: SolutionLoft
+semester: Spring 2016
 logo: https://upload.wikimedia.org/wikipedia/commons/a/ab/Logo_TV_2015.png
 founders:
     - name: Will Fry

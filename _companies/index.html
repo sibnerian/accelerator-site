@@ -1,0 +1,19 @@
+---
+layout: default
+---
+
+<div class="container">
+  {% assign semesters = site.collections[0].semesters %}
+  {% for semester in semesters %}
+    {{semester}}
+    {% for company in site.companies %}
+      {% if company.semester == semester %}
+        <h2>
+          <a href="{{site.baseurl}}/companies/{{semester | slugify}}/{{company.slug}}">
+          {{ company.name }}
+        </h2>
+        <img src="{{ company.logo }}"/>
+      {% endif %}
+    {% endfor %}
+  {% endfor %}
+</div>
