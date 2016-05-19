@@ -1,10 +1,3 @@
-# Welcome to Jekyll!
-#
-# This config file is meant for settings that affect your whole blog, values
-# which you are expected to set up once and rarely need to edit after that.
-# For technical reasons, this file is *NOT* reloaded automatically when you use
-# 'jekyll serve'. If you change this file, please restart the server process.
-
 # Site settings
 title: PennApps Accelerator
 email: pennappsaccelerator@gmail.com
@@ -17,6 +10,12 @@ sass:
   sass_dir: .
   style: compressed
 exclude: [vendor]
+collections:
+  teams:
+    output: true
+    years:
+      - Spring 2016
+      # - Fall 2015
 
 # Build settings
 markdown: kramdown
